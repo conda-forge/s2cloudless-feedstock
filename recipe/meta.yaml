@@ -1,18 +1,18 @@
 {% set name = "s2cloudless" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 5701aa36270e7ab40fa146a0ead1382a229b1ed6abbd4588f7d27aa33c91dab9
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 47e8a9031b1cd952c44121402272663f0bf112321ef9301c86ff015f21cb2aa1
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -31,12 +31,12 @@ test:
     - s2cloudless
 
 about:
-  home: "https://github.com/sentinel-hub/sentinel2-cloud-detector"
+  home: https://github.com/sentinel-hub/sentinel2-cloud-detector
   license: CC-BY-4.0
   license_family: CC
-  license_file: "LICENSE.md"
-  summary: "Sentinel Hub's cloud detector for Sentinel-2 imagery"
-  doc_url: "https://pypi.org/project/s2cloudless/"
+  license_file: LICENSE.md
+  summary: Sentinel Hub's cloud detector for Sentinel-2 imagery
+  doc_url: https://pypi.org/project/s2cloudless/
 
 extra:
   recipe-maintainers:
