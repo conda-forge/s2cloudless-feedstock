@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
@@ -32,8 +32,8 @@ test:
 
 about:
   home: "https://github.com/sentinel-hub/sentinel2-cloud-detector"
-  license: "CC BY-SA 4.0"
-  license_family: "CC"
+  license: CC-BY-4.0
+  license_family: CC
   license_file: "LICENSE.md"
   summary: "Sentinel Hub's cloud detector for Sentinel-2 imagery"
   doc_url: "https://pypi.org/project/s2cloudless/"
@@ -42,7 +42,6 @@ extra:
   recipe-maintainers:
     - mxr-conda
     - mwilson8
-    - dcunn
     - oblute
     - rluria14
     - benhuff
