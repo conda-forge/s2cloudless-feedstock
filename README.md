@@ -3,7 +3,7 @@ About s2cloudless
 
 Home: https://github.com/sentinel-hub/sentinel2-cloud-detector
 
-Package license: CC BY-SA 4.0
+Package license: CC-BY-4.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/s2cloudless-feedstock/blob/master/LICENSE.txt)
 
@@ -118,7 +118,6 @@ Feedstock Maintainers
 =====================
 
 * [@benhuff](https://github.com/benhuff/)
-* [@dcunn](https://github.com/dcunn/)
 * [@mwilson8](https://github.com/mwilson8/)
 * [@mxr-conda](https://github.com/mxr-conda/)
 * [@oblute](https://github.com/oblute/)
