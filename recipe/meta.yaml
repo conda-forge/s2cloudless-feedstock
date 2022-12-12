@@ -40,6 +40,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - batic
     - mxr-conda
     - mwilson8
     - oblute
