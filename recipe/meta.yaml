@@ -1,5 +1,5 @@
 {% set name = "s2cloudless" %}
-{% set version = "1.5.0" %}
+{% set version = "1.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 47e8a9031b1cd952c44121402272663f0bf112321ef9301c86ff015f21cb2aa1
+  sha256: cdae8c466bd7e9502f375a15394b00a7af9daedab3deca9c999f36f7717ea004
 
 build:
   noarch: python
