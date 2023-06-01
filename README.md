@@ -1,11 +1,11 @@
-About s2cloudless
-=================
+About s2cloudless-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/s2cloudless-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/sentinel-hub/sentinel2-cloud-detector
 
 Package license: CC-BY-4.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/s2cloudless-feedstock/blob/main/LICENSE.txt)
 
 Summary: Sentinel Hub's cloud detector for Sentinel-2 imagery
 
