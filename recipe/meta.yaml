@@ -23,7 +23,7 @@ requirements:
     - numpy >=1.13.3
     - python >=3.7
     - sentinelhub >=3.9.0
-    - opencv-python-headless
+    - opencv
     - typing_extensions
 
 test:
