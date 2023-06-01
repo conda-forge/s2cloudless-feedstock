@@ -22,7 +22,8 @@ requirements:
     - lightgbm >=2.0.11
     - numpy >=1.13.3
     - python >=3.7
-    - sentinelhub >=3.8.0
+    - sentinelhub >=3.9.0
+    - opencv-python-headless
     - typing_extensions
 
 test:
